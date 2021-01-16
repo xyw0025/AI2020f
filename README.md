@@ -1,4 +1,4 @@
-#AI2020f  
+# AI2020f  
 
 |作業編號|作業說明| 
 |--- |--- |
@@ -12,15 +12,15 @@
 
 
 
-##HW1
+## HW1
 ![title](MD_images/hw1.png)
 
-##HW2
+## HW2
 
 Lit up activated neurons. Visualize how neural network (pretty shallow in this case though) works.
 
 ![title](MD_images/hw2.png)  
-##HW3 
+## HW3 
 Shows that what it looks like in the dataset. For exmaple, we can sum up and get average look of each handwritten digits in the training dataset. 
 
 ![title](MD_images/hw3/hw3_digits.png)
@@ -28,7 +28,7 @@ Shows that what it looks like in the dataset. For exmaple, we can sum up and get
 We also get to know the distribution in the dataset. (x-axis=labels, y-aixs=number of data)
 ![title](MD_images/hw3/distribution.png)
   
-##HW4
+## HW4
 #### Implement autoencoder.
 ![title](MD_images/hw4/hw4.png)
 ### ENCODER
@@ -37,18 +37,18 @@ We also get to know the distribution in the dataset. (x-axis=labels, y-aixs=numb
 ![title](MD_images/hw4/decoder.png)
 
 
-##HW5
+## HW5
 
-####Implement VAE.
+#### Implement VAE.
 ![title](MD_images/hw5/hw5.png)
 
-###ENCODER
+### ENCODER
 ![title](MD_images/hw5/vae_encoder_plot.png)
-###DECODER
+### DECODER
 ![title](MD_images/hw5/vae_decoder_plot.png)  
 
 
-##HW6 
+## HW6 
 
 Implement a multi-label (class) classifier to classify 11 kinds of food (Dataset: food11). The model here is kind of a VGG16 mockup, not entirely the same structure. Validation accuracy stayed around ~80% after 80 epoches. Snatched 2nd place (private leaderboard) in kaggle in-class competition.
 
@@ -57,7 +57,7 @@ Implement a multi-label (class) classifier to classify 11 kinds of food (Dataset
  
 ![title](MD_images/hw6/VGG16_implement.png)
 
-##HW7
+## HW7
 
 Load the weights file from HW6 and use Flask to implement heat-map on web. (The .h5 file is removed since its size exceeds github limit)
 
