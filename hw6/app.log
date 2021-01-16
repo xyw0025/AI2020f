@@ -1,0 +1,329 @@
+2020-12-31 08:57:01.383282: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2020-12-31 08:57:02.894710: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcuda.so.1
+2020-12-31 08:57:02.923402: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:982] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-12-31 08:57:02.924268: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1716] Found device 0 with properties: 
+pciBusID: 0000:13:00.0 name: GeForce GTX 1080 Ti computeCapability: 6.1
+coreClock: 1.6575GHz coreCount: 28 deviceMemorySize: 10.92GiB deviceMemoryBandwidth: 451.17GiB/s
+2020-12-31 08:57:02.924331: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2020-12-31 08:57:02.926815: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcublas.so.10
+2020-12-31 08:57:02.928744: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcufft.so.10
+2020-12-31 08:57:02.929177: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcurand.so.10
+2020-12-31 08:57:02.931811: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusolver.so.10
+2020-12-31 08:57:02.933242: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusparse.so.10
+2020-12-31 08:57:02.938640: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.7
+2020-12-31 08:57:02.938850: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:982] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-12-31 08:57:02.939784: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:982] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-12-31 08:57:02.940564: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1858] Adding visible gpu devices: 0
+2020-12-31 08:57:02.950398: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 2100000000 Hz
+2020-12-31 08:57:02.950735: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55ddf5eda180 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-12-31 08:57:02.950768: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2020-12-31 08:57:03.057786: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:982] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-12-31 08:57:03.058743: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55ddf5b09a60 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2020-12-31 08:57:03.058785: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2020-12-31 08:57:03.059045: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:982] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-12-31 08:57:03.059838: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1716] Found device 0 with properties: 
+pciBusID: 0000:13:00.0 name: GeForce GTX 1080 Ti computeCapability: 6.1
+coreClock: 1.6575GHz coreCount: 28 deviceMemorySize: 10.92GiB deviceMemoryBandwidth: 451.17GiB/s
+2020-12-31 08:57:03.059916: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2020-12-31 08:57:03.059969: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcublas.so.10
+2020-12-31 08:57:03.060023: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcufft.so.10
+2020-12-31 08:57:03.060079: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcurand.so.10
+2020-12-31 08:57:03.060135: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusolver.so.10
+2020-12-31 08:57:03.060192: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusparse.so.10
+2020-12-31 08:57:03.060251: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.7
+2020-12-31 08:57:03.060354: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:982] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-12-31 08:57:03.061196: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:982] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-12-31 08:57:03.061943: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1858] Adding visible gpu devices: 0
+2020-12-31 08:57:03.062016: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2020-12-31 08:57:03.763248: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1257] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-12-31 08:57:03.763325: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1263]      0 
+2020-12-31 08:57:03.763350: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1276] 0:   N 
+2020-12-31 08:57:03.763651: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:982] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-12-31 08:57:03.764552: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:982] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-12-31 08:57:03.765376: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1402] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10271 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:13:00.0, compute capability: 6.1)
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+conv2d (Conv2D)              (None, 128, 128, 64)      1792      
+_________________________________________________________________
+conv2d_1 (Conv2D)            (None, 128, 128, 64)      36928     
+_________________________________________________________________
+batch_normalization (BatchNo (None, 128, 128, 64)      256       
+_________________________________________________________________
+max_pooling2d (MaxPooling2D) (None, 64, 64, 64)        0         
+_________________________________________________________________
+conv2d_2 (Conv2D)            (None, 64, 64, 128)       73856     
+_________________________________________________________________
+conv2d_3 (Conv2D)            (None, 64, 64, 128)       147584    
+_________________________________________________________________
+batch_normalization_1 (Batch (None, 64, 64, 128)       512       
+_________________________________________________________________
+max_pooling2d_1 (MaxPooling2 (None, 32, 32, 128)       0         
+_________________________________________________________________
+conv2d_4 (Conv2D)            (None, 32, 32, 256)       295168    
+_________________________________________________________________
+conv2d_5 (Conv2D)            (None, 32, 32, 256)       590080    
+_________________________________________________________________
+conv2d_6 (Conv2D)            (None, 32, 32, 256)       590080    
+_________________________________________________________________
+batch_normalization_2 (Batch (None, 32, 32, 256)       1024      
+_________________________________________________________________
+max_pooling2d_2 (MaxPooling2 (None, 16, 16, 256)       0         
+_________________________________________________________________
+conv2d_7 (Conv2D)            (None, 16, 16, 256)       590080    
+_________________________________________________________________
+conv2d_8 (Conv2D)            (None, 16, 16, 256)       590080    
+_________________________________________________________________
+conv2d_9 (Conv2D)            (None, 16, 16, 256)       590080    
+_________________________________________________________________
+batch_normalization_3 (Batch (None, 16, 16, 256)       1024      
+_________________________________________________________________
+max_pooling2d_3 (MaxPooling2 (None, 8, 8, 256)         0         
+_________________________________________________________________
+conv2d_10 (Conv2D)           (None, 8, 8, 512)         1180160   
+_________________________________________________________________
+conv2d_11 (Conv2D)           (None, 8, 8, 512)         2359808   
+_________________________________________________________________
+conv2d_12 (Conv2D)           (None, 8, 8, 512)         2359808   
+_________________________________________________________________
+batch_normalization_4 (Batch (None, 8, 8, 512)         2048      
+_________________________________________________________________
+max_pooling2d_4 (MaxPooling2 (None, 4, 4, 512)         0         
+_________________________________________________________________
+conv2d_13 (Conv2D)           (None, 4, 4, 512)         2359808   
+_________________________________________________________________
+conv2d_14 (Conv2D)           (None, 4, 4, 512)         2359808   
+_________________________________________________________________
+conv2d_15 (Conv2D)           (None, 4, 4, 512)         2359808   
+_________________________________________________________________
+batch_normalization_5 (Batch (None, 4, 4, 512)         2048      
+_________________________________________________________________
+max_pooling2d_5 (MaxPooling2 (None, 2, 2, 512)         0         
+_________________________________________________________________
+flatten (Flatten)            (None, 2048)              0         
+_________________________________________________________________
+dense (Dense)                (None, 256)               524544    
+_________________________________________________________________
+dropout (Dropout)            (None, 256)               0         
+_________________________________________________________________
+dense_1 (Dense)              (None, 11)                2827      
+=================================================================
+Total params: 17,019,211
+Trainable params: 17,015,755
+Non-trainable params: 3,456
+_________________________________________________________________
+Found 9866 images belonging to 11 classes.
+Found 3430 images belonging to 11 classes.
+WARNING:tensorflow:`period` argument is deprecated. Please use `save_freq` to specify the frequency in number of batches seen.
+Epoch 1/45
+2020-12-31 08:57:09.090506: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcublas.so.10
+2020-12-31 08:57:10.420217: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.7
+ 2/77 [..............................] - ETA: 9s - loss: 4.2147 - accuracy: 0.1133WARNING:tensorflow:Callbacks method `on_train_batch_end` is slow compared to the batch time (batch time: 0.0903s vs `on_train_batch_end` time: 0.1715s). Check your callbacks.
+77/77 [==============================] - 137s 2s/step - loss: 2.4026 - accuracy: 0.1769 - val_loss: 2.3790 - val_accuracy: 0.1458
+Epoch 2/45
+77/77 [==============================] - 134s 2s/step - loss: 2.0672 - accuracy: 0.2698 - val_loss: 2.8999 - val_accuracy: 0.1458
+Epoch 3/45
+77/77 [==============================] - 134s 2s/step - loss: 1.9794 - accuracy: 0.3121 - val_loss: 3.2330 - val_accuracy: 0.1458
+Epoch 4/45
+77/77 [==============================] - 134s 2s/step - loss: 1.9148 - accuracy: 0.3367 - val_loss: 4.1780 - val_accuracy: 0.1458
+Epoch 5/45
+77/77 [==============================] - 136s 2s/step - loss: 1.8308 - accuracy: 0.3643 - val_loss: 3.9103 - val_accuracy: 0.1461
+Epoch 6/45
+77/77 [==============================] - ETA: 0s - loss: 1.7940 - accuracy: 0.3851  
+Epoch 00006: ReduceLROnPlateau reducing learning rate to 0.00024000001139938833.
+77/77 [==============================] - 133s 2s/step - loss: 1.7940 - accuracy: 0.3851 - val_loss: 3.6872 - val_accuracy: 0.1697
+Epoch 7/45
+77/77 [==============================] - 134s 2s/step - loss: 1.6948 - accuracy: 0.4209 - val_loss: 2.2656 - val_accuracy: 0.2872
+Epoch 8/45
+77/77 [==============================] - 134s 2s/step - loss: 1.6511 - accuracy: 0.4372 - val_loss: 1.9366 - val_accuracy: 0.3767
+Epoch 9/45
+77/77 [==============================] - 134s 2s/step - loss: 1.6194 - accuracy: 0.4504 - val_loss: 1.6652 - val_accuracy: 0.4294
+Epoch 10/45
+77/77 [==============================] - 134s 2s/step - loss: 1.5670 - accuracy: 0.4725 - val_loss: 2.3666 - val_accuracy: 0.3219
+Epoch 11/45
+77/77 [==============================] - 134s 2s/step - loss: 1.5224 - accuracy: 0.4869 - val_loss: 1.9316 - val_accuracy: 0.3741
+Epoch 12/45
+77/77 [==============================] - 134s 2s/step - loss: 1.5458 - accuracy: 0.4870 - val_loss: 2.0257 - val_accuracy: 0.3778
+Epoch 13/45
+77/77 [==============================] - 134s 2s/step - loss: 1.3922 - accuracy: 0.5397 - val_loss: 3.3469 - val_accuracy: 0.2490
+Epoch 14/45
+77/77 [==============================] - ETA: 0s - loss: 1.4092 - accuracy: 0.5346  
+Epoch 00014: ReduceLROnPlateau reducing learning rate to 0.00019200000679120421.
+77/77 [==============================] - 134s 2s/step - loss: 1.4092 - accuracy: 0.5346 - val_loss: 3.4684 - val_accuracy: 0.3122
+Epoch 15/45
+77/77 [==============================] - 134s 2s/step - loss: 1.2759 - accuracy: 0.5789 - val_loss: 2.0353 - val_accuracy: 0.4344
+Epoch 16/45
+77/77 [==============================] - 133s 2s/step - loss: 1.2408 - accuracy: 0.5887 - val_loss: 1.4963 - val_accuracy: 0.5006
+Epoch 17/45
+77/77 [==============================] - 135s 2s/step - loss: 1.2190 - accuracy: 0.5985 - val_loss: 1.4829 - val_accuracy: 0.5283
+Epoch 18/45
+77/77 [==============================] - 135s 2s/step - loss: 1.1371 - accuracy: 0.6253 - val_loss: 1.5260 - val_accuracy: 0.5469
+Epoch 19/45
+77/77 [==============================] - 134s 2s/step - loss: 1.1299 - accuracy: 0.6246 - val_loss: 1.3673 - val_accuracy: 0.5872
+Epoch 20/45
+77/77 [==============================] - 135s 2s/step - loss: 1.0714 - accuracy: 0.6484 - val_loss: 1.5254 - val_accuracy: 0.5143
+Epoch 21/45
+77/77 [==============================] - 135s 2s/step - loss: 1.0802 - accuracy: 0.6417 - val_loss: 1.8214 - val_accuracy: 0.4869
+Epoch 22/45
+77/77 [==============================] - 134s 2s/step - loss: 1.0300 - accuracy: 0.6628 - val_loss: 2.8498 - val_accuracy: 0.3682
+Epoch 23/45
+77/77 [==============================] - 134s 2s/step - loss: 1.0107 - accuracy: 0.6685 - val_loss: 1.5091 - val_accuracy: 0.5426
+Epoch 24/45
+77/77 [==============================] - 134s 2s/step - loss: 1.0309 - accuracy: 0.6671 - val_loss: 1.1888 - val_accuracy: 0.6181
+Epoch 25/45
+77/77 [==============================] - 134s 2s/step - loss: 0.9790 - accuracy: 0.6853 - val_loss: 1.3248 - val_accuracy: 0.5880
+Epoch 26/45
+77/77 [==============================] - 134s 2s/step - loss: 0.9667 - accuracy: 0.6864 - val_loss: 1.1469 - val_accuracy: 0.6408
+Epoch 27/45
+77/77 [==============================] - 134s 2s/step - loss: 0.8520 - accuracy: 0.7229 - val_loss: 1.4275 - val_accuracy: 0.5490
+Epoch 28/45
+77/77 [==============================] - 134s 2s/step - loss: 0.9209 - accuracy: 0.6996 - val_loss: 1.4155 - val_accuracy: 0.5907
+Epoch 29/45
+77/77 [==============================] - 135s 2s/step - loss: 0.9059 - accuracy: 0.7067 - val_loss: 1.6129 - val_accuracy: 0.5350
+Epoch 30/45
+77/77 [==============================] - 134s 2s/step - loss: 0.9004 - accuracy: 0.7053 - val_loss: 1.1426 - val_accuracy: 0.6513
+Epoch 31/45
+77/77 [==============================] - 134s 2s/step - loss: 0.8278 - accuracy: 0.7333 - val_loss: 1.8754 - val_accuracy: 0.5338
+Epoch 32/45
+77/77 [==============================] - 134s 2s/step - loss: 0.7811 - accuracy: 0.7481 - val_loss: 1.2833 - val_accuracy: 0.6224
+Epoch 33/45
+77/77 [==============================] - 134s 2s/step - loss: 0.8405 - accuracy: 0.7312 - val_loss: 1.8196 - val_accuracy: 0.5332
+Epoch 34/45
+77/77 [==============================] - 134s 2s/step - loss: 0.7803 - accuracy: 0.7512 - val_loss: 2.0761 - val_accuracy: 0.4869
+Epoch 35/45
+77/77 [==============================] - ETA: 0s - loss: 0.7499 - accuracy: 0.7568  
+Epoch 00035: ReduceLROnPlateau reducing learning rate to 0.00015360000543296337.
+77/77 [==============================] - 135s 2s/step - loss: 0.7499 - accuracy: 0.7568 - val_loss: 1.2862 - val_accuracy: 0.6172
+Epoch 36/45
+77/77 [==============================] - 134s 2s/step - loss: 0.6900 - accuracy: 0.7755 - val_loss: 1.0121 - val_accuracy: 0.6819
+Epoch 37/45
+77/77 [==============================] - 134s 2s/step - loss: 0.6483 - accuracy: 0.7904 - val_loss: 1.2869 - val_accuracy: 0.6469
+Epoch 38/45
+77/77 [==============================] - 134s 2s/step - loss: 0.6317 - accuracy: 0.7938 - val_loss: 3.3969 - val_accuracy: 0.3892
+Epoch 39/45
+77/77 [==============================] - 134s 2s/step - loss: 0.6474 - accuracy: 0.7875 - val_loss: 1.1681 - val_accuracy: 0.6469
+Epoch 40/45
+77/77 [==============================] - 134s 2s/step - loss: 0.7279 - accuracy: 0.7589 - val_loss: 1.1148 - val_accuracy: 0.6869
+Epoch 41/45
+77/77 [==============================] - ETA: 0s - loss: 0.7059 - accuracy: 0.7740  
+Epoch 00041: ReduceLROnPlateau reducing learning rate to 0.0001228800043463707.
+77/77 [==============================] - 134s 2s/step - loss: 0.7059 - accuracy: 0.7740 - val_loss: 1.2760 - val_accuracy: 0.6458
+Epoch 42/45
+77/77 [==============================] - 134s 2s/step - loss: 0.6408 - accuracy: 0.7894 - val_loss: 1.1145 - val_accuracy: 0.6802
+Epoch 43/45
+77/77 [==============================] - 134s 2s/step - loss: 0.6164 - accuracy: 0.8035 - val_loss: 1.1631 - val_accuracy: 0.6662
+Epoch 44/45
+77/77 [==============================] - 134s 2s/step - loss: 0.5603 - accuracy: 0.8179 - val_loss: 1.1451 - val_accuracy: 0.6606
+Epoch 45/45
+77/77 [==============================] - 134s 2s/step - loss: 0.5451 - accuracy: 0.8242 - val_loss: 1.3093 - val_accuracy: 0.6420
+Found 9866 images belonging to 11 classes.
+Found 3430 images belonging to 11 classes.
+Epoch 1/45
+77/77 [==============================] - 135s 2s/step - loss: 0.7536 - accuracy: 0.7586 - val_loss: 1.7206 - val_accuracy: 0.6064
+Epoch 2/45
+77/77 [==============================] - 134s 2s/step - loss: 0.7293 - accuracy: 0.7642 - val_loss: 1.3573 - val_accuracy: 0.6513
+Epoch 3/45
+77/77 [==============================] - 134s 2s/step - loss: 0.7158 - accuracy: 0.7779 - val_loss: 1.7474 - val_accuracy: 0.6003
+Epoch 4/45
+77/77 [==============================] - 134s 2s/step - loss: 0.7196 - accuracy: 0.7758 - val_loss: 1.4111 - val_accuracy: 0.5816
+Epoch 5/45
+77/77 [==============================] - 135s 2s/step - loss: 0.7421 - accuracy: 0.7663 - val_loss: 4.2409 - val_accuracy: 0.4093
+Epoch 6/45
+77/77 [==============================] - 135s 2s/step - loss: 0.6717 - accuracy: 0.7832 - val_loss: 1.4168 - val_accuracy: 0.6023
+Epoch 7/45
+77/77 [==============================] - ETA: 0s - loss: 0.8441 - accuracy: 0.7336  
+Epoch 00007: ReduceLROnPlateau reducing learning rate to 0.00024000001139938833.
+77/77 [==============================] - 133s 2s/step - loss: 0.8441 - accuracy: 0.7336 - val_loss: 2.0047 - val_accuracy: 0.5222
+Epoch 8/45
+77/77 [==============================] - 136s 2s/step - loss: 0.7343 - accuracy: 0.7651 - val_loss: 1.2611 - val_accuracy: 0.6679
+Epoch 9/45
+77/77 [==============================] - 135s 2s/step - loss: 0.6040 - accuracy: 0.8057 - val_loss: 1.0364 - val_accuracy: 0.6802
+Epoch 10/45
+77/77 [==============================] - 136s 2s/step - loss: 0.5954 - accuracy: 0.8105 - val_loss: 1.1779 - val_accuracy: 0.6703
+Epoch 11/45
+77/77 [==============================] - 134s 2s/step - loss: 0.5572 - accuracy: 0.8191 - val_loss: 1.1802 - val_accuracy: 0.6784
+Epoch 12/45
+77/77 [==============================] - 134s 2s/step - loss: 0.5067 - accuracy: 0.8353 - val_loss: 1.8163 - val_accuracy: 0.5571
+Epoch 13/45
+77/77 [==============================] - 134s 2s/step - loss: 0.5701 - accuracy: 0.8171 - val_loss: 1.2472 - val_accuracy: 0.6571
+Epoch 14/45
+77/77 [==============================] - ETA: 0s - loss: 0.4658 - accuracy: 0.8473  
+Epoch 00014: ReduceLROnPlateau reducing learning rate to 0.00019200000679120421.
+77/77 [==============================] - 134s 2s/step - loss: 0.4658 - accuracy: 0.8473 - val_loss: 2.7792 - val_accuracy: 0.5122
+Epoch 15/45
+77/77 [==============================] - 135s 2s/step - loss: 0.5194 - accuracy: 0.8331 - val_loss: 0.9572 - val_accuracy: 0.7478
+Epoch 16/45
+77/77 [==============================] - 134s 2s/step - loss: 0.4101 - accuracy: 0.8638 - val_loss: 2.4985 - val_accuracy: 0.6131
+Epoch 17/45
+77/77 [==============================] - 134s 2s/step - loss: 0.4329 - accuracy: 0.8642 - val_loss: 1.1390 - val_accuracy: 0.7242
+Epoch 18/45
+77/77 [==============================] - 134s 2s/step - loss: 0.5742 - accuracy: 0.8208 - val_loss: 1.6293 - val_accuracy: 0.5939
+Epoch 19/45
+77/77 [==============================] - 134s 2s/step - loss: 0.5609 - accuracy: 0.8220 - val_loss: 1.2390 - val_accuracy: 0.6968
+Epoch 20/45
+77/77 [==============================] - ETA: 0s - loss: 0.4564 - accuracy: 0.8536  
+Epoch 00020: ReduceLROnPlateau reducing learning rate to 0.00015360000543296337.
+77/77 [==============================] - 135s 2s/step - loss: 0.4564 - accuracy: 0.8536 - val_loss: 1.0759 - val_accuracy: 0.7216
+Epoch 21/45
+77/77 [==============================] - 134s 2s/step - loss: 0.4080 - accuracy: 0.8664 - val_loss: 0.7889 - val_accuracy: 0.7819
+Epoch 22/45
+77/77 [==============================] - 134s 2s/step - loss: 0.3478 - accuracy: 0.8895 - val_loss: 0.9481 - val_accuracy: 0.7359
+Epoch 23/45
+77/77 [==============================] - 134s 2s/step - loss: 0.3872 - accuracy: 0.8736 - val_loss: 0.9133 - val_accuracy: 0.7449
+Epoch 24/45
+77/77 [==============================] - 134s 2s/step - loss: 0.3353 - accuracy: 0.8910 - val_loss: 1.1724 - val_accuracy: 0.7070
+Epoch 25/45
+77/77 [==============================] - 135s 2s/step - loss: 0.3143 - accuracy: 0.8959 - val_loss: 1.0483 - val_accuracy: 0.7566
+Epoch 26/45
+77/77 [==============================] - ETA: 0s - loss: 0.3776 - accuracy: 0.8813  
+Epoch 00026: ReduceLROnPlateau reducing learning rate to 0.0001228800043463707.
+77/77 [==============================] - 134s 2s/step - loss: 0.3776 - accuracy: 0.8813 - val_loss: 1.8798 - val_accuracy: 0.5641
+Epoch 27/45
+77/77 [==============================] - 134s 2s/step - loss: 0.3704 - accuracy: 0.8772 - val_loss: 1.5274 - val_accuracy: 0.6644
+Epoch 28/45
+77/77 [==============================] - 134s 2s/step - loss: 0.3832 - accuracy: 0.8792 - val_loss: 1.0724 - val_accuracy: 0.7219
+Epoch 29/45
+77/77 [==============================] - 134s 2s/step - loss: 0.3240 - accuracy: 0.8939 - val_loss: 0.8355 - val_accuracy: 0.7717
+Epoch 30/45
+77/77 [==============================] - 135s 2s/step - loss: 0.2669 - accuracy: 0.9138 - val_loss: 0.9064 - val_accuracy: 0.7603
+Epoch 31/45
+77/77 [==============================] - ETA: 0s - loss: 0.2791 - accuracy: 0.9076  
+Epoch 00031: ReduceLROnPlateau reducing learning rate to 9.830400813370943e-05.
+77/77 [==============================] - 134s 2s/step - loss: 0.2791 - accuracy: 0.9076 - val_loss: 0.8077 - val_accuracy: 0.7857
+Epoch 32/45
+77/77 [==============================] - 134s 2s/step - loss: 0.2416 - accuracy: 0.9203 - val_loss: 0.7839 - val_accuracy: 0.7977
+Epoch 33/45
+77/77 [==============================] - 134s 2s/step - loss: 0.2245 - accuracy: 0.9277 - val_loss: 1.1896 - val_accuracy: 0.7195
+Epoch 34/45
+77/77 [==============================] - 133s 2s/step - loss: 0.2578 - accuracy: 0.9174 - val_loss: 1.2003 - val_accuracy: 0.7344
+Epoch 35/45
+77/77 [==============================] - 135s 2s/step - loss: 0.2340 - accuracy: 0.9222 - val_loss: 0.8016 - val_accuracy: 0.7936
+Epoch 36/45
+77/77 [==============================] - 134s 2s/step - loss: 0.2145 - accuracy: 0.9293 - val_loss: 1.0840 - val_accuracy: 0.7379
+Epoch 37/45
+77/77 [==============================] - ETA: 0s - loss: 0.2199 - accuracy: 0.9288  
+Epoch 00037: ReduceLROnPlateau reducing learning rate to 7.864320650696754e-05.
+77/77 [==============================] - 134s 2s/step - loss: 0.2199 - accuracy: 0.9288 - val_loss: 0.9584 - val_accuracy: 0.7697
+Epoch 38/45
+77/77 [==============================] - 134s 2s/step - loss: 0.1953 - accuracy: 0.9367 - val_loss: 1.0835 - val_accuracy: 0.7606
+Epoch 39/45
+77/77 [==============================] - 134s 2s/step - loss: 0.1804 - accuracy: 0.9412 - val_loss: 0.9198 - val_accuracy: 0.7764
+Epoch 40/45
+77/77 [==============================] - 135s 2s/step - loss: 0.1791 - accuracy: 0.9436 - val_loss: 0.9304 - val_accuracy: 0.7860
+Epoch 41/45
+77/77 [==============================] - 134s 2s/step - loss: 0.2292 - accuracy: 0.9277 - val_loss: 1.0989 - val_accuracy: 0.7603
+Epoch 42/45
+77/77 [==============================] - ETA: 0s - loss: 0.1800 - accuracy: 0.9402  
+Epoch 00042: ReduceLROnPlateau reducing learning rate to 6.291456520557404e-05.
+77/77 [==============================] - 134s 2s/step - loss: 0.1800 - accuracy: 0.9402 - val_loss: 1.1278 - val_accuracy: 0.7577
+Epoch 43/45
+77/77 [==============================] - 134s 2s/step - loss: 0.1474 - accuracy: 0.9536 - val_loss: 0.9613 - val_accuracy: 0.7770
+Epoch 44/45
+77/77 [==============================] - 134s 2s/step - loss: 0.1469 - accuracy: 0.9526 - val_loss: 0.9369 - val_accuracy: 0.7878
+Epoch 45/45
+77/77 [==============================] - 135s 2s/step - loss: 0.1281 - accuracy: 0.9596 - val_loss: 1.2622 - val_accuracy: 0.7513
+WARNING:tensorflow:From hw6.py:303: Sequential.predict_classes (from tensorflow.python.keras.engine.sequential) is deprecated and will be removed after 2021-01-01.
+Instructions for updating:
+Please use instead:* `np.argmax(model.predict(x), axis=-1)`,   if your model does multi-class classification   (e.g. if it uses a `softmax` last-layer activation).* `(model.predict(x) > 0.5).astype("int32")`,   if your model does binary classification   (e.g. if it uses a `sigmoid` last-layer activation).
+
